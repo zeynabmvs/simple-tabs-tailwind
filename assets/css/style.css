@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    color:red
+}
+
+.tabs-type-2 [aria-selected=true] {
+    @apply bg-primary-500 text-white dark:text-white;
+}
