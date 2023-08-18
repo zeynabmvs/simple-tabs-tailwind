@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 
-* {
-    color:red
-}
-
-.tabs-type-2 [aria-selected=true] {
-    @apply bg-primary-500 text-white dark:text-white;
+.tabs-container [aria-selected=true] {
+    @apply bg-blue-500 text-white dark:text-white;
 }
